@@ -1,7 +1,6 @@
 const clientId = "34be5377e12b4eaeb871a6377ed22fc1";
 const clientSecret = "9bd98e964e7b4e3f8520a40b329cc053";
 const base64Credentials = btoa(`${clientId}:${clientSecret}`);
-
 const search = document.getElementById("search");
 const btn = document.getElementById("searchSecond");
 const contain = document.getElementById("container");
@@ -9,7 +8,7 @@ const contain = document.getElementById("container");
 contain.innerHTML = "";
 
 const accessToken =
-  "MzRiZTUzNzdlMTJiNGVhZWI4NzFhNjM3N2VkMjJmYzE6OWJkOThlOTY0ZTdiNGUzZjg1MjBhNDBiMzI5Y2MwNTM="; // Replace with a valid access token
+  "BQDzg0d6hifkisDitUk9ytoPRf9mwDNPtoU9FcTvHIdD-3YmfDALxl3TnV4f9zNwUg0uqjaPuTrJZIPLyM1xSiNiCL0CGL_nz02qg_zRg3o7arQBfeA"; // Replace with a valid access token
 
 async function getSearch() {
   const query = search.value.trim(); // Get search input value and trim whitespace
